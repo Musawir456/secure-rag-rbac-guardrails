@@ -1,0 +1,2 @@
+access: engineering
+Production deployments happen every Tuesday and Thursday at 2 PM via the CI pipeline. Rollback procedure: run the rollback job in CI, then notify the on-call engineer. The on-call rotation changes every Monday. Database backups run nightly at 2 AM and are kept for 30 days.
